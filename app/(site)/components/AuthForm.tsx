@@ -1,9 +1,12 @@
 "use client";
+import axios from "axios";
 import { useCallback, useState } from "react";
 import { FieldValues, SubmitHandler, useForm } from "react-hook-form";
+import{FcGoogle} from 'react-icons/fc';
 
 import Input from "../../components/inputs/Input";
 import Button from "@/app/components/Button";
+import AuthSocialButton from "./AuthSocialButton";
 
 type Variant = 'LOGIN' | 'REGISTER';
 
@@ -21,7 +24,7 @@ const AuthForm = () => {
         register,
         handleSubmit,
         formState: {
-            errors
+            errors,
         }
     } = useForm<FieldValues>({
         defaultValues: {
@@ -33,8 +36,9 @@ const AuthForm = () => {
 
     const onSubmit: SubmitHandler<FieldValues> = (data) => {
         setIsLoading(true);
-        if (variant === 'REGISTER') {
 
+        if (variant === 'REGISTER') {
+           axios.post('/api/register', data)
         }
         if (variant === 'LOGIN') {
 
@@ -74,6 +78,7 @@ const AuthForm = () => {
                             label="Name"
                             register={register}
                             errors={errors}
+                            disabled={isLoading}
                         />
                     )}
                     <Input
@@ -82,6 +87,7 @@ const AuthForm = () => {
                         type="email"
                         register={register}
                         errors={errors}
+                        disabled={isLoading}
                     />
                     <Input
                         id="password"
@@ -89,6 +95,7 @@ const AuthForm = () => {
                         type="password"
                         register={register}
                         errors={errors}
+                        disabled={isLoading}
                     />
                     <div
                         className=""
@@ -129,17 +136,46 @@ const AuthForm = () => {
                         >
                             <span
                                 className="
-                                            bg-white
-                                            px-2
-                                            text-gray-500
-                                        "
+                                    bg-white
+                                    px-2
+                                    text-gray-500
+                                "
                             >
                                 Or continue with
                             </span>
                         </div>
                     </div>
                     <div className="mt-6 flex gap-2">
+                        <AuthSocialButton
+                            
+                            icon={FcGoogle}
+                            onClick={()=> socialAction('google')}
+                            
+                        />
                         
+                    </div>
+                </div>
+                <div className="
+                    flex
+                    gap-2
+                    justify-center
+                    text-sm
+                    px-2
+                    text-gray-500
+                "
+                >
+                    <div>
+                        {variant === 'LOGIN' ? 'New to Messenger?' : 'Already have an account?'}
+                    </div>
+                    <div
+                        onClick={toggleVariant}
+                        className="
+                            underline cursor-pointer
+                        "
+                    >
+                        {variant === 'LOGIN'? 'Create an account' : 'Login'}
+                        
+                       
                     </div>
                 </div>
             </div>
