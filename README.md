@@ -1,7 +1,17 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
+First, install extension for chat app:
+```bash
+npm install next-auth@latest @prisma/client @next-auth/prisma-adapter bcrypt
 
+npm install -D @types/bcrypt
+
+npm install axios
+
+npm install react-hot-toast
+
+```
 First, run the development server:
 
 ```bash
