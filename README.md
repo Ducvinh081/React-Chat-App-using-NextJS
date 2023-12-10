@@ -5,7 +5,7 @@ First, Check your node.js: go to Window->run->cmd-> npm -v. If you don't downloa
 
 Second, open Chat App folder by VS code -> View -> Terminal
 
-Third, install extension for chat app:
+Third, install extension for chat app. Copy below to terminal to install:
 ```bash
 npm install -D @types/bcrypt
 
@@ -21,7 +21,7 @@ npm install react-icons react-hook-form clsx
 
 
 ```
-Fourth, install extension in VS code. Copy below to terminal to install:
+Fourth, install extension in VS code:
 ```bash
 Tailwind CSS IntelliSense
 
