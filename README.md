@@ -1,21 +1,46 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
-First, install extension for chat app:
-```bash
-npm install next-auth@latest @prisma/client @next-auth/prisma-adapter bcrypt
+First, Check your node.js: go to Window->run->cmd-> npm -v. If you don't download yet, go to: https://nodejs.org/en/download
 
+Second, open Chat App folder by VS code -> View -> Terminal
+
+Third, install extension for chat app:
+```bash
 npm install -D @types/bcrypt
+
+npm install -D prisma
+
+npm install next-auth@latest @prisma/client @next-auth/prisma-adapter bcrypt
 
 npm install axios
 
 npm install react-hot-toast
 
+npm install react-icons react-hook-form clsx
+
+
 ```
-First, run the development server:
+Fourth, install extension in VS code:
+```bash
+Tailwind CSS IntelliSense
+
+PostCSS Language Support
+
+Prisma
+
+MongoDB for VS Code
+
+Code Runner
+
+Beautify css/sass/scss/less
+
+```
+
+Fifth, run the development server:
 
 ```bash
-npm run dev
+npm run dev 
 # or
 yarn dev
 # or
