@@ -21,7 +21,7 @@ npm install react-icons react-hook-form clsx
 
 
 ```
-Fourth, install extension in VS code:
+Fourth, install extension in VS code. Copy below to terminal to install:
 ```bash
 Tailwind CSS IntelliSense
 
