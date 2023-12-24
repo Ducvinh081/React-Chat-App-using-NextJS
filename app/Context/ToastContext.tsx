@@ -1,5 +1,4 @@
-'user-client';
-import React from "react"
+'use client';
 import {Toaster} from "react-hot-toast";
 
 const ToasterContext = () => {
