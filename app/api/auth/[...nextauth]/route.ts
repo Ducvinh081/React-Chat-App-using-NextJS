@@ -1,8 +1,8 @@
 
 
 import NextAuth from 'next-auth/next';
-import { authOption } from '@/ultis/auth';
+import { authOptions } from '@/ultis/auth';
 
-const handle = NextAuth(authOption);
+const handle = NextAuth(authOptions);
 
-export { handle as GET, handle as POST };
+export { handle as GET, handle as POST, authOptions };
