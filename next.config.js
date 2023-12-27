@@ -1,5 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+    experimental: {
+        appDir: true,
+        swcPlugins: [["next-superjson-plugin", {}]]
+    },
     images: {
         remotePatterns: [
             {
@@ -8,10 +12,10 @@ const nextConfig = {
             },
         ],
         domains: [
-            'res.cloudinary.com', 
+            'res.cloudinary.com',
             'avatars.githubusercontent.com',
             'lh3.googleusercontent.com'
-          ]
+        ]
     }
 }
 
