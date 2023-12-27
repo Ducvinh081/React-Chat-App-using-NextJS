@@ -1,7 +1,7 @@
 
 
 import NextAuth from 'next-auth/next';
-import { authOptions } from '@/ultis/auth';
+import { authOptions } from '@/auth';
 
 const handle = NextAuth(authOptions);
 
