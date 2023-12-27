@@ -51,4 +51,3 @@ import { NextAuthOptions } from 'next-auth';
     },
     secret: process.env.NEXTAUTH_SECRET,
 };
-export default authOptions;
