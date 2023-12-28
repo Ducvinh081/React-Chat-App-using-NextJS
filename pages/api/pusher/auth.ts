@@ -1,5 +1,5 @@
 import { NextApiRequest, NextApiResponse } from "next"
-import { getServerSession } from "next-auth/next";
+import { getServerSession } from "next-auth";
 
 import { pusherServer } from "@/app/libs/pusher";
 import { authOptions } from "@/auth";
