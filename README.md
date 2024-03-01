@@ -33,18 +33,18 @@ Language: TypeScript.
   - Send image, icon.
   - Chat real-time.
 ## Result
-# Login / Register
+### Login / Register
 ![image](https://github.com/Ducvinh081/react-chat-app-using-nextjs/assets/134723548/44cd4528-f273-459e-93a1-7bfcf90d0f80)
 ![image](https://github.com/Ducvinh081/react-chat-app-using-nextjs/assets/134723548/36ebfde1-3582-41d5-ae91-2b2cc893e033)
 
-# Main Page
+### Main Page
 ![image](https://github.com/Ducvinh081/react-chat-app-using-nextjs/assets/134723548/873139fa-a24b-4bbb-b3b2-ee7a2faad793)
-# Chat page
+### Chat page
 ![image](https://github.com/Ducvinh081/react-chat-app-using-nextjs/assets/134723548/9486ae24-276a-4ad7-92f8-6a78b4c277eb)
-# Create Group
+### Create Group
 ![image](https://github.com/Ducvinh081/react-chat-app-using-nextjs/assets/134723548/0df0ad41-ed70-4335-8ad5-d0c8826c8e02)
-# Sidebar
+### Sidebar
 ![image](https://github.com/Ducvinh081/react-chat-app-using-nextjs/assets/134723548/fee1a340-6e1f-4171-ab43-a372f6e1620d)
-# Profile Drawer
+### Profile Drawer
 ![image](https://github.com/Ducvinh081/react-chat-app-using-nextjs/assets/134723548/e420fab0-c132-49d0-b046-eefccd7ae6fb)
 
