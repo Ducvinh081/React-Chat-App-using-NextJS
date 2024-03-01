@@ -32,7 +32,7 @@ Language: TypeScript.
   - Create/Delete group chat.
   - Send image, icon.
   - Chat real-time.
-## Result
+## Demo
 ### Login / Register
 ![image](https://github.com/Ducvinh081/react-chat-app-using-nextjs/assets/134723548/44cd4528-f273-459e-93a1-7bfcf90d0f80)
 ![image](https://github.com/Ducvinh081/react-chat-app-using-nextjs/assets/134723548/36ebfde1-3582-41d5-ae91-2b2cc893e033)
