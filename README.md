@@ -16,21 +16,28 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+You can start editing the page by modifying `app/(site)/page.tsx`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## CHAT APPLICATION USING REACTJS
+A simple chat app for everyone in Nha Trang University chat from far distance.
+Using Prisma, Pusher, NextAuth.js, MongoDB. 
+Language: TypeScript.
 
-To learn more about Next.js, take a look at the following resources:
+## Function User
+  - Edit Profile
+  - Login/Register/Log out.
+  - Create/Delete chat.
+  - Create/Delete group chat.
+  - Send image, icon.
+  - Chat real-time.
+## Result
+Main Page
+![image](https://github.com/Ducvinh081/react-chat-app-using-nextjs/assets/134723548/873139fa-a24b-4bbb-b3b2-ee7a2faad793)
+Chat page
+![image](https://github.com/Ducvinh081/react-chat-app-using-nextjs/assets/134723548/9486ae24-276a-4ad7-92f8-6a78b4c277eb)
+Create Group
+![image](https://github.com/Ducvinh081/react-chat-app-using-nextjs/assets/134723548/0df0ad41-ed70-4335-8ad5-d0c8826c8e02)
+Sidebar Drawler
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
