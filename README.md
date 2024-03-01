@@ -25,7 +25,12 @@ A simple chat app for everyone in Nha Trang University chat from far distance.
 Using Prisma, Pusher, NextAuth.js, MongoDB. 
 Language: TypeScript.
 
-## Function User
+## Function
+  ### Website-app
+  - Full responsive.
+  - Chat real-time.
+  - A visually pleasing and friendly GUI.
+  ### User
   - Edit Profile
   - Login/Register/Log out.
   - Create/Delete chat.
